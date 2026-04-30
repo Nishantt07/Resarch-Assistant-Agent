@@ -79,11 +79,11 @@ APIGet It AtGROQ_API_KEYgroq.comTAVILY_API_KEYtavily.comNEWSAPI_KEYnewsapi.orgOP
 
 🚀 Getting Started
 1. Clone the repository
-bashgit clone https://github.com/yourusername/research-assistant-agent.git
+bashgit clone https://github.com/Nishantt07/research-assistant-agent.git
 cd research-assistant-agent
-2. Install dependencies
+3. Install dependencies
 bashpip install -r requirements.txt
-3. Set up environment variables
+4. Set up environment variables
 Create a .env file in the root directory:
 envGROQ_API_KEY=your_groq_api_key
 TAVILY_API_KEY=your_tavily_api_key
@@ -91,12 +91,12 @@ NEWSAPI_KEY=your_newsapi_key
 OPENWEATHER_API_KEY=your_openweather_api_key
 PINECONE_API_KEY=your_pinecone_api_key
 PINECONE_INDEX_NAME=research-agent
-4. Set up Pinecone Index
+5. Set up Pinecone Index
 Go to pinecone.io and create an index with:
 Index Name:  research-agent
 Dimensions:  384
 Metric:      cosine
-5. Run the project
+6. Run the project
 bashpython main.py
 When prompted, type yes to load sample documents into Pinecone on first run.
 
